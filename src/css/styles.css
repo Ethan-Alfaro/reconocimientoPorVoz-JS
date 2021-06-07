@@ -1,0 +1,94 @@
+body {
+  background-color: #1e5e5a;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+.left-section {
+  width: 30%;
+  height: 90vh;
+  background-color: #f0ebeb;
+}
+.left-header {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0ebeb;
+}
+.microphone {
+  width: 180px;
+  height: 180px;
+  background-color: #f0ebeb;
+  border-radius: 80%;
+  border: #1e5e5a 3px solid;
+  box-shadow: -3px 4px teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.microphoneImage {
+  width: 70%;
+  height: 70%;
+}
+.hi {
+  width: 100%;
+  height: 18%;
+  margin-top: 5%;
+  background-color: #f0ebeb;
+  display: flex;
+  border-top: 1px solid #707070;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-bottom: 1px solid #707070;
+  box-shadow: 0px 0px 10px 0px #707070;
+}
+.indications {
+  width: 100%;
+  height: 40%;
+  background-color: #f0ebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  text-align: center;
+  box-shadow: 00px 0px 10px 0px #707070;
+}
+.right-section {
+  width: 60%;
+  height: 90vh;
+}
+.right-header {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0ebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 2px solid #979797;
+}
+.cont {
+  width: 100%;
+  height: 80%;
+  background-color: #f0ebeb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
